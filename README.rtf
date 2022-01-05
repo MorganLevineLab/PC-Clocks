@@ -1,84 +1,52 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2578
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 LucidaGrande;
-}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
-{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
-{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{check\}}{\leveltext\leveltemplateid201\'01\uc0\u10003 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
-{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
-\margl1440\margr1440\vieww15100\viewh10160\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+Installation:
 
-\f0\b\fs32 \cf0 Installation:
-\f1\b0\fs24 \
-\
-1. Please clone or download the zip file of this Github Repository.\
-\
-2. Take note of where the installation occurred. Copy the path to that folder, including the final \'91/\'91\
-\
-3. Navigate to [https://drive.google.com/drive/folders/1MTL5LhHsAC2lnWzfr-Jnaa9j_OwjCz38?usp=sharing] and download the files \
-\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
-\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}\'93Example_PCClock_Data.RData\'94\
-\pard\tx940\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1440\fi-1440\pardirnatural\partightenfactor0
-\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}Lehne 2015 Technical Replicate Data\
-\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
-\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}\'93CalcAllPCClocks.RData\'94\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
+1. Please clone or download the zip file of this Github Repository.
+
+2. Take note of where the installation occurred. Copy the path to that folder, including the final '/'
+
+3. Navigate to [https://drive.google.com/drive/folders/1MTL5LhHsAC2lnWzfr-Jnaa9j_OwjCz38?usp=sharing] and download the files
+      "Example_PCClock_Data.RData"  (Lehne et al. 2015, Technical Replicate Data)
+      "CalcAllPCClocks.RData"
+
 4. Place both RData files directly inside the Github Repository you cloned/ downloaded\
 \
-5. [Optional] If you wish to calculate ALL the PCs we used to train the PC clocks, not just the ones that were selected by the models, navigate to [https://drive.google.com/drive/folders/1-LT-IxL7VDza7btvszw-aiAmwD_57_SD?usp=sharing] and download all 6 RData files\'97or the ones for the clocks you wish to utilize.\
-\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
-\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}If you chose to calculate all PCs, then ensure that you move all downloaded files from this link to the downloaded repository under the folder path \'93PC-Clocks/Extras/AllPC_data/\'93\
-{\listtext	\uc0\u8226 	}Please note that predicting all PCs in new data will be memory and computationally intensive, so the code may run slowly. Consider using a high performance computing cluster. A minimum of 16 GB+ of RAM is essential on a personal computer.\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
+5. [Optional] If you wish to calculate ALL the PCs we used to train the PC clocks, not just the ones that were selected by the models, navigate to 
+              [https://drive.google.com/drive/folders/1-LT-IxL7VDza7btvszw-aiAmwD_57_SD?usp=sharing] 
+              and download all 6 RData files--or the ones for the clocks you wish to utilize.
+                    If you chose to calculate all PCs, then ensure that you move all downloaded files from this link to the downloaded repository 
+                    under the folder path "/PC-Clocks/Extras/AllPC_data/"
+                    Please note that predicting all PCs in new data will be memory and computationally intensive, so the code may run slowly. 
+                    Consider using a high performance computing cluster. A minimum of 16 GB+ of RAM is essential on a personal computer.
+               
+               
+Essential Files:
 
-\f0\b\fs32 Essential Files:
-\f1\b0\fs24 \
-\
-\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
-\ls3\ilvl0\cf0 {\listtext	
-\f2 \uc0\u10003 
-\f1 	}
-\f0\b template_get_PCClocks_script.R
-\f1\b0  This is the template with instructions on how to run the code in this repository to get the PC Clock scores.\
-{\listtext	
-\f2 \uc0\u10003 
-\f1 	}r
-\f0\b un_calcPCClocks.R
-\f1\b0  This is the R function that will be used in the template to calculate the PC Clocks on your data. \
-{\listtext	
-\f2 \uc0\u10003 
-\f1 	}run_calcPCClocks_Accel.R This is the R function that is responsible for quickly calculating age acceleration for the various clocks in your sample. Most analyses will take advantage of these calculations rather than the raw clock scores.\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
+template_get_PCClocks_script.R
+    This is the template with instructions on how to run the code in this repository to get the PC Clock scores.
+    
+run_calcPCClocks.R
+    This is the R function that will be used in the template to calculate the PC Clocks on your data. 
 
-\f0\b\fs32 To Run the Analysis:
-\f1\b0\fs24 \
-\
-1. Load in your phenotype (clinical and demographic) dataframe and methylation data to your R workspace.\
-\
-2. Open the 
-\f0\b template_get_PCClocks_script.R
-\f1\b0  and follow the instructions on that script.\
-\
+run_calcPCClocks_Accel.R
+    This is the R function that is responsible for quickly calculating age acceleration for the various clocks in your sample.
+    Most analyses will take advantage of these calculations rather than the raw clock scores.
 
-\f0\b\fs32 Additional Files for analyses:
-\f1\b0\fs24 \
-\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
-\ls4\ilvl0\cf0 {\listtext	\uc0\u8226 	}
-\f0\b TrainPCClocks
-\f1\b0  This is an example script showing you how to perform analyses to train your own epigenetic clock or biomarker in a manner like ours.\
-{\listtext	\uc0\u8226 	}Extras > 
-\f0\b CalcPCClocks_allPCs.R 
-\f1\b0 This script will show you how to calculate all of the PCs we had available for training the clock and use this, rather than our sped up and shortened method of calculating in new data. \
-{\listtext	\uc0\u8226 	}Extras > 
-\f0\b CalcPCClocks_fullLength.R
-\f1\b0  This script shows the worked out stepwise original implementation of our PC clocks calculations if you are interested in a more detailed, fuller version of what is implemented in our quick run_calcPCClocks.R function.  This version entails all the key steps but will walk you through running the process manually if you\'92re interested!\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
-\
-}
+
+To Run the Analysis:
+
+1. Load in your phenotype (clinical and demographic) dataframe and methylation data to your R workspace.
+
+2. Open the template_get_PCClocks_script.R and follow the instructions on that script.
+
+Additional Files for analyses:
+
+TrainPCClocks
+    This is an example script showing you how to perform analyses to train your own epigenetic clock or biomarker in a manner like ours.\
+Extras > CalcPCClocks_allPCs.R 
+    This script will show you how to calculate all of the PCs we had available for training the clock and use this, 
+    rather than our sped up and shortened method of calculating in new data. 
+Extras > CalcPCClocks_fullLength.R
+    This script shows the worked out stepwise original implementation of our PC clocks calculations if you are interested in a more detailed, 
+    fuller version of what is implemented in our quick run_calcPCClocks.R function.  This version entails all the key steps but will walk you 
+    through running the process manually if you're interested!
+
