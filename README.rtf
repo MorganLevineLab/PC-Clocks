@@ -4,13 +4,13 @@ Installation:
 
 1. Please clone or download the zip file of this Github Repository.
 
-2. Take note of where the installation occurred. Copy the path to that folder, including the final '/'
+2. Take note of where the installation occurred. Copy the path to that folder, including the final '/'.
 
 3. Navigate to [https://drive.google.com/drive/folders/1MTL5LhHsAC2lnWzfr-Jnaa9j_OwjCz38?usp=sharing] and download the files
       "Example_PCClock_Data.RData"  (Lehne et al. 2015, Technical Replicate Data)
       "CalcAllPCClocks.RData"
 
-4. Place both RData files directly inside the Github Repository you cloned/ downloaded
+4. Place both RData files directly inside the Github Repository you cloned/ downloaded.
 
 5. [Optional] If you wish to calculate ALL the PCs we used to train the PC clocks, not just the ones that were selected by the models, navigate to 
               [https://drive.google.com/drive/folders/1-LT-IxL7VDza7btvszw-aiAmwD_57_SD?usp=sharing] 
@@ -42,15 +42,13 @@ To Run the Analysis:
 
 Additional Files for analyses:
 
-TrainPCClocks
-    This is an example script showing you how to perform analyses to train your own epigenetic clock or biomarker in a manner like ours.
+TrainPCClocks.R
+    This is an example script showing you how to perform analyses to train your own principal component-based epigenetic clock or biomarker.
     
 Extras > CalcPCClocks_allPCs.R 
-    This script will show you how to calculate all of the PCs we had available for training the clock and use this, 
-    rather than our sped up and shortened method of calculating in new data. 
-    
+    This script will enable you how to calculate all the PCs we had available for training the clock, including PCs that are not used in our PC clock models. Note that calculation time is substantially longer.
+
 Extras > CalcPCClocks_fullLength.R
-    This script shows the worked out stepwise original implementation of our PC clocks calculations if you are interested in a more detailed, 
-    fuller version of what is implemented in our quick run_calcPCClocks.R function.  This version entails all the key steps but will walk you 
-    through running the process manually if you're interested!
+    This script shows the stepwise original implementation of our PC clocks calculations. Use this if you are interested in manually running the individual steps of what is implemented in our single-line run_calcPCClocks.R function.  
+
 
