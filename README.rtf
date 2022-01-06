@@ -12,13 +12,10 @@ Installation:
 
 4. Place both RData files directly inside the Github Repository you cloned/ downloaded.
 
-5. [Optional] If you wish to calculate ALL the PCs we used to train the PC clocks, not just the ones that were selected by the models, navigate to 
-              [https://drive.google.com/drive/folders/1-LT-IxL7VDza7btvszw-aiAmwD_57_SD?usp=sharing] 
-              and download all 6 RData files--or the ones for the clocks you wish to utilize.
-                    If you chose to calculate all PCs, then ensure that you move all downloaded files from this link to the downloaded repository 
-                    under the folder path "/PC-Clocks/Extras/AllPC_data/"
-                    Please note that predicting all PCs in new data will be memory and computationally intensive, so the code may run slowly. 
-                    Consider using a high performance computing cluster. A minimum of 16 GB+ of RAM is essential on a personal computer.
+5. [Optional] If you wish to calculate ALL the PCs we used to train the PC clocks, not just the ones that were selected by the models, navigate to [https://drive.google.com/drive/folders/1-LT-IxL7VDza7btvszw-aiAmwD_57_SD?usp=sharing] and download all 6 RData files--or the ones for the clocks you wish to utilize.
+      If you chose to calculate all PCs, then ensure that you move all downloaded files from this link to the downloaded repository under the folder path "/PC-Clocks/Extras/AllPC_data/"
+      Please note that predicting all PCs in new data will be memory and computationally intensive, so the code may run slowly. 
+      Consider using a high performance computing cluster. A minimum of 16 GB+ of RAM is essential on a personal computer.
                
                
 Essential Files:
@@ -46,7 +43,7 @@ TrainPCClocks.R
     This is an example script showing you how to perform analyses to train your own principal component-based epigenetic clock or biomarker.
     
 Extras > CalcPCClocks_allPCs.R 
-    This script will enable you how to calculate all the PCs we had available for training the clock, including PCs that are not used in our PC clock models. Note that calculation time is substantially longer.
+      This script will enable you how to calculate all the PCs we had available for training the clock, including PCs that are not used in our PC clock models. Note that calculation time is substantially longer.
 
 Extras > CalcPCClocks_fullLength.R
     This script shows the stepwise original implementation of our PC clocks calculations. Use this if you are interested in manually running the individual steps of what is implemented in our single-line run_calcPCClocks.R function.  
