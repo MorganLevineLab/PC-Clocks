@@ -1,0 +1,69 @@
+Original CpG Based Epigenetic Clocks:  
+  Horvath1 Clock: Horvath, S. DNA methylation age of human tissues and cell types. Genome Biol. 14, R115 (2013).  
+  Horvath2 Clock: Horvath, S. et al. Epigenetic clock for skin and blood cells applied to Hutchinson Gilford Progeria Syndrome and ex vivo studies. Aging (Albany. NY). 10, 1758–1775 (2018).
+  Hannum Clock: Hannum, G. et al. Genome-wide Methylation Profiles Reveal Quantitative Views of Human Aging Rates. Mol. Cell 49, 359–367 (2013).  
+  PhenoAge Clock: Levine, M. et al. An epigenetic biomarker of aging for lifespan and healthspan. Aging (Albany. NY). 10, 276162 (2018).  
+  DNAmTL Clock: Lu, A. T. et al. DNA methylation-based estimator of telomere length. Aging (Albany. NY). 11, 5895–5923 (2019).  
+  GrimAge: Lu, A. T. et al. DNA methylation GrimAge strongly predicts lifespan and healthspan. Aging (Albany. NY). 11, 303–327 (2019). 
+
+Essential Datasets for generation of PCs (Found in our Paper's table S6):  
+
+For PCHorvath1:  
+  Horvath S, Zhang Y, Langfelder P, Kahn RS et al. Aging effects on DNA methylation modules in human brain and blood tissue. Genome Biol 2012 Oct 3;13(10):R97. PMID: 23034122  
+  Hannum G, Guinney J, Zhao L, Zhang L et al. Genome-wide methylation profiles reveal quantitative views of human aging rates. Mol Cell 2013 Jan 24;49(2):359-367. PMID: 23177740
+  Alisch RS, Barwick BG, Chopra P, Myrick LK et al. Age-associated DNA methylation in pediatric populations. Genome Res 2012 Apr;22(4):623-32. PMID: 22300631
+  GSE32149 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  GSE80283 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  GSE79056 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  Pidsley R, Viana J, Hannon E, Spiers H et al. Methylomic profiling of human brain tissue supports a neurodevelopmental origin for schizophrenia. Genome Biol 2014;15(10):483. PMID: 25347937
+  Viana J, Hannon E, Dempster E, Pidsley R et al. Schizophrenia-associated methylomic variation: molecular signatures of disease and polygenic risk burden across multiple brain regions. Hum Mol Genet 2017 Jan 1;26(1):210-225. PMID: 28011714
+  Pidsley R, Y Wong CC, Volta M, Lunnon K et al. A data-driven approach to preprocessing Illumina 450K methylation array data. BMC Genomics 2013 May 1;14:293. PMID: 23631413
+  Policicchio S, Washer S, Viana J, Iatrou A et al. Genome-wide DNA methylation meta-analysis in the brains of suicide completers. Transl Psychiatry 2020 Feb 19;10(1):69. PMID: 32075955
+  GSE137223 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  Jaffe AE, Gao Y, Deep-Soboslay A, Tao R et al. Mapping DNA methylation across development, genotype and schizophrenia in the human frontal cortex. Nat Neurosci 2016 Jan;19(1):40-7. PMID: 26619358
+  Guintivano J, Aryee MJ, Kaminsky ZA. A cell epigenotype specific model for the correction of brain cellular heterogeneity bias and its application to age, brain region and major depression. Epigenetics 2013 Mar;8(3):290-302. PMID: 23426267
+  Johnson KC, Houseman EA, King JE, Christensen BC. Normal breast tissue DNA methylation differences at regulatory elements are associated with the cancer risk factor age. Breast Cancer Res 2017 Jul 10;19(1):81. PMID: 28693600
+  GSE94876 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  Portales-Casamar E, Lussier AA, Jones MJ, MacIsaac JL et al. DNA methylation signature of human fetal alcohol spectrum disorder. Epigenetics Chromatin 2016;9:25. PMID: 27358653
+  Berko ER, Suzuki M, Beren F, Lemetre C et al. Mosaic epigenetic dysregulation of ectodermal cells in autism spectrum disorder. PLoS Genet 2014;10(5):e1004402. PMID: 24875834
+  Rushton MD, Reynard LN, Barter MJ, Refaie R et al. Characterization of the cartilage DNA methylome in knee and hip osteoarthritis. Arthritis Rheumatol 2014 Sep;66(9):2450-60. PMID: 24838673
+  Barrow TM, Klett H, Toth R, Böhm J et al. Smoking is associated with hypermethylation of the APC 1A promoter in colorectal cancer: the ColoCare Study. J Pathol 2017 Nov;243(3):366-375. PMID: 28791728
+  GSE32146 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  Ivanov NA, Tao R, Chenoweth JG, Brandtjen A et al. Strong Components of Epigenetic Memory in Cultured Human Fibroblasts Related to Site of Origin and Donor Age. PLoS Genet 2016 Feb;12(2):e1005819. PMID: 26913521
+  Vandiver AR, Irizarry RA, Hansen KD, Garza LA et al. Age and sun exposure-related widespread genomic blocks of hypomethylation in nonmalignant skin. Genome Biol 2015 Apr 16;16:80. PMID: 25886480
+  Woo HD, Fernandez-Jimenez N, Ghantous A, Degli Esposti D et al. Genome-wide profiling of normal gastric mucosa identifies Helicobacter pylori- and cancer-associated DNA methylome changes. Int J Cancer 2018 Aug 1;143(3):597-609. PMID: 29574700
+  Horvath S, Erhart W, Brosch M, Ammerpohl O et al. Obesity accelerates epigenetic aging of human liver. Proc Natl Acad Sci U S A 2014 Oct 28;111(43):15538-43. PMID: 25313081
+  Horvath S, Erhart W, Brosch M, Ammerpohl O et al. Obesity accelerates epigenetic aging of human liver. Proc Natl Acad Sci U S A 2014 Oct 28;111(43):15538-43. PMID: 25313081
+  Garcia-Gomez A, Li T, de la Calle-Fabregat C, Rodríguez-Ubreva J et al. Targeting aberrant DNA methylation in mesenchymal stromal cells as a treatment for myeloma bone disease. Nat Commun 2021 Jan 18;12(1):421. PMID: 33462210
+  Binder AM, LaRocca J, Lesseur C, Marsit CJ et al. Epigenome-wide and transcriptome-wide analyses reveal gestational diabetes is associated with alterations in the human leukocyte antigen complex. Clin Epigenetics 2015;7:79. PMID: 26244062
+  Chuang YH, Paul KC, Bronstein JM, Bordelon Y et al. Parkinson's disease is associated with DNA methylation levels in human blood and saliva. Genome Med 2017 Aug 30;9(1):76. PMID: 28851441
+  Horvath S, Ritz BR. Increased epigenetic age and granulocyte counts in the blood of Parkinson's disease patients. Aging (Albany NY) 2015 Dec;7(12):1130-42. PMID: 26655927 
+  Kannel, W. B., Feinleib, M., McNamara, P. M., Garrison, R. J. & Castelli, W. P. An Investigation of coronary heart disease in families: The Framingham Offspring Study. Am. J. Epidemiol. 110, 281–290 (1979).
+  Splansky, G. L. et al. The Third Generation Cohort of the National Heart, Lung, and Blood Institute’s Framingham Heart Study: Design, recruitment, and initial examination. Am. J. Epidemiol. 165, 1328–1335 (2007).
+TCGA HNSC
+TCGA KIRP/KIRC
+TCGA LUSC/LUAD
+TCGA PRAD
+TCGA THCA
+
+For PCHorvath2:  
+  Portales-Casamar E, Lussier AA, Jones MJ, MacIsaac JL et al. DNA methylation signature of human fetal alcohol spectrum disorder. Epigenetics Chromatin 2016;9:25. PMID: 27358653
+  Berko ER, Suzuki M, Beren F, Lemetre C et al. Mosaic epigenetic dysregulation of ectodermal cells in autism spectrum disorder. PLoS Genet 2014;10(5):e1004402. PMID: 24875834
+  Hannum G, Guinney J, Zhao L, Zhang L et al. Genome-wide methylation profiles reveal quantitative views of human aging rates. Mol Cell 2013 Jan 24;49(2):359-367. PMID: 23177740
+  Alisch RS, Barwick BG, Chopra P, Myrick LK et al. Age-associated DNA methylation in pediatric populations. Genome Res 2012 Apr;22(4):623-32. PMID: 22300631
+  Yang IV, Richards A, Davidson EJ, Stevens AD et al. The Nasal Methylome: A Key to Understanding Allergic Asthma. Am J Respir Crit Care Med 2017 Mar 15;195(6):829-831. PMID: 28294656
+  Ivanov NA, Tao R, Chenoweth JG, Brandtjen A et al. Strong Components of Epigenetic Memory in Cultured Human Fibroblasts Related to Site of Origin and Donor Age. PLoS Genet 2016 Feb;12(2):e1005819. PMID: 26913521
+  Wagner JR, Busche S, Ge B, Kwan T et al. The relationship between DNA methylation, genetic and expression inter-individual variation in untransformed human fibroblasts. Genome Biol 2014 Feb 20;15(2):R37. PMID: 24555846
+  GSE79056 at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+  E-MTAB-4385 at https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4385/ (Bormann 2016)
+  
+For PCHannum:
+  Hannum G, Guinney J, Zhao L, Zhang L et al. Genome-wide methylation profiles reveal quantitative views of human aging rates. Mol Cell 2013 Jan 24;49(2):359-367. PMID: 23177740
+  
+For PCPhenoAge:
+  Moore AZ, Hernandez DG, Tanaka T, Pilling LC, Nalls MA, Bandinelli S, Singleton AB, Ferrucci L. Change in Epigenome-Wide DNA Methylation Over 9 Years and Subsequent Mortality: Results From the InCHIANTI Study. J Gerontol A Biol Sci Med Sci. 2016 Aug;71(8):1029-35. doi: 10.1093/gerona/glv118. Epub 2015 Sep 9. PMID: 26355017; PMCID: PMC4945883.
+  Eileen M Crimmins, PhD, Bharat Thyagarajan, MD, PhD, Morgan E Levine, PhD, David R Weir, PhD, Jessica Faul, PhD, MPH, Associations of Age, Sex, Race/Ethnicity, and Education With 13 Epigenetic Clocks in a Nationally Representative U.S. Sample: The Health and Retirement Study, The Journals of Gerontology: Series A, Volume 76, Issue 6, June 2021, Pages 1117–1123, https://doi.org/10.1093/gerona/glab016
+  
+For PCGrimAge and PCDNAmTL:
+  Kannel WB, Feinleib M, McNamara PM, Garrison RJ, Castelli WP. An investigation of coronary heart disease in families. The Framingham offspring study. Am J Epidemiol. 1979 Sep;110(3):281-90. doi: 10.1093/oxfordjournals.aje.a112813. PMID: 474565.
+  Splansky GL, Corey D, Yang Q, Atwood LD, Cupples LA, Benjamin EJ, D'Agostino RB Sr, Fox CS, Larson MG, Murabito JM, O'Donnell CJ, Vasan RS, Wolf PA, Levy D. The Third Generation Cohort of the National Heart, Lung, and Blood Institute's Framingham Heart Study: design, recruitment, and initial examination. Am J Epidemiol. 2007 Jun 1;165(11):1328-35. doi: 10.1093/aje/kwm021. Epub 2007 Mar 19. PMID: 17372189.
