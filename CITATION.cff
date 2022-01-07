@@ -99,12 +99,12 @@ preferred-citation:
   - family-names: "Morgan E."
     given-names: "Levine"
     orcid: "https://orcid.org/0000-0000-0000-0000"
-  doi: "10.0000/00000"
-  journal: "Nature Aging"
-  month: 9
-  start: 1 # First page number
-  end: 10 # Last page number
+  doi: "[DOI here]"
+  journal: "[Publication Journal]"
+  month: 
+  start:  # First page number
+  end:  # Last page number
   title: "A computational solution for bolstering reliability of epigenetic clocks: Implications for clinical trials and longitudinal tracking"
-  issue: 1
-  volume: 1
+  issue: 
+  volume: 
   year: 2022
