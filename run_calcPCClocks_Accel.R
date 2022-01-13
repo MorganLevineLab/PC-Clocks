@@ -11,7 +11,7 @@ calcPCClocks_Accel <- function(DNAmAge){
   }
   #clockColumns = c(9:23)
   for (i in clockColumns){
-    DNAmAge[,paste0(i,"Resid")] = resid(lm(DNAmAge[,i][[1]] ~ DNAmAge$Age))
+    DNAmAge[,paste0(i,"Resid")] = resid(lm(DNAmAge[,i] ~ DNAmAge$Age))
     #DNAmAge[,paste0(colnames(DNAmAge)[i],"Resid",sep="")] = resid(lm(as.vector(DNAmAge[,i][[1]]) ~ as.vector(DNAmAge$Age)))
   }
   return(DNAmAge)
