@@ -46,16 +46,18 @@ calcPCClocks <- function(path_to_PCClocks_directory, datMeth, datPheno){
   #If needed: Fill in missing CpGs needed for calculation of PCs; use mean values from GSE40279 (Hannum 2013; blood)- note that for other tissues you might prefer to use a different one
   datMeth <- as.data.frame(datMeth)
   missingCpGs <- c(CpGs[!(CpGs %in% colnames(datMeth))])
+  if (length(missingCpGs)>0) {
   datMeth[,missingCpGs] <- NA
   for(i in 1:length(missingCpGs)){
     datMeth[,missingCpGs[i]] <- imputeMissingCpGs[missingCpGs[i]]
-  }
+  }}
 
   #fill in CpGs that are NA for all values
   missingCpGs <- CpGs[apply(datMeth[,CpGs], 2, function(x)all(is.na(x)))]
+  if (length(missingCpGs)>0) {
   for(i in 1:length(missingCpGs)){
     datMeth[,missingCpGs[i]] <- imputeMissingCpGs[missingCpGs[i]]
-  }
+  }}
   message("Any missing CpGs successfully filled in (see function for more details)")
   
   #Prepare methylation data for calculation of PC Clocks (subset to 78,464 CpGs and perform imputation if needed)
