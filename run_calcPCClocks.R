@@ -45,7 +45,7 @@ calcPCClocks <- function(path_to_PCClocks_directory, datMeth, datPheno){
   
   #If needed: Fill in missing CpGs needed for calculation of PCs; use mean values from GSE40279 (Hannum 2013; blood)- note that for other tissues you might prefer to use a different one
   datMeth <- as.data.frame(datMeth)
-  if(length(c(CpGs[!(CpGs %in% colnames(datMeth))],CpGs[apply(datMeth[,CpGs], 2, function(x)all(is.na(x)))])) == 0){
+  if(length(c(CpGs[!(CpGs %in% colnames(datMeth))],CpGs[apply(datMeth[,colnames(datMeth) %in% CpGs], 2, function(x)all(is.na(x)))])) == 0){
     message("No CpGs were NA for all samples")
   } else{
     missingCpGs <- c(CpGs[!(CpGs %in% colnames(datMeth))])
