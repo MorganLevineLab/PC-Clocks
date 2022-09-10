@@ -6,6 +6,7 @@ clocksDir <- "~/Downloads/PC-Clocks-Beta-Jan2022/PC-Clocks-update-beta/" #where 
 
 source(paste(clocksDir, "run_calcPCClocks.R", sep = ""))
 source(paste(clocksDir, "run_calcPCClocks_Accel.R", sep = ""))
+load(paste(clocksDir,"CalcAllPCClocks.RData",sep=""))
 
 # Load the file with your pheno data and methylation data in it (Here we used the example data included)
 load(paste(clocksDir,"Example_PCClock_Data_final.RData",sep=""))
